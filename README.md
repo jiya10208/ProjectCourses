@@ -29,3 +29,16 @@ Displaying Information:
 1) user dashboard for students to display the courses they are enrolled in with a user-friendly interface with a list of enrolled courses.
 2) Displaying information such as  course name, instructor name and a progress bar.
 3) Implementing a feature that allows students to mark courses as completed.
+
+
+To run the web app type this in your terminal:
+```
+npm run dev
+```
+
+To run the server:
+```
+cd backend
+npm start server
+```
+
