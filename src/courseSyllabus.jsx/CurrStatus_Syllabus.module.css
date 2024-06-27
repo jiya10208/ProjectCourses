@@ -1,0 +1,52 @@
+.Syllabus_completion_detail {
+  margin: 1rem;
+}
+.Syllabus_completion_detail h1,
+.Syllabus_completion_detail p {
+  text-align: center;
+}
+.StudentCourseItem {
+  margin-top: 3rem;
+  background-color: green;
+  border: 3px double #252424;
+  padding: 2rem 1.5rem;
+}
+
+.StudentCourseItem a,
+.StudentCourseItem a p {
+  color: #d9d9d9;
+}
+.main_studentContent {
+  margin: 1.5rem 1.5rem;
+}
+
+.main_studentContent p,
+.main_studentContent a,
+.main_studentContent h1 {
+  color: #252424;
+}
+
+.main_studentContent_Link {
+  padding: 1rem 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 1rem 1rem;
+  border-radius: 1rem;
+  background-color: green;
+  color: white;
+  transition: background 0.5s, padding 1s;
+}
+
+.main_studentContent_Link:hover {
+  text-decoration: underline;
+  background-color: #252424;
+  padding: 1rem 1.2rem;
+}
+.CompleteSyllabusList {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+  justify-content: center;
+  align-items: center;
+}

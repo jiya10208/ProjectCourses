@@ -1,0 +1,35 @@
+.search_input {
+  padding: 0.3rem 0.4rem;
+  border: none;
+  -webkit-rtl-ordering: logical;
+  border-radius: 0;
+  cursor: text;
+  -webkit-appearance: none;
+}
+
+.search_input:focus,
+.search_input:active {
+  border: none;
+  outline: none;
+}
+.searchButton {
+  border: none;
+  padding: 0.2rem 0.5rem;
+  padding-bottom: 0.3rem;
+}
+
+.search_dropdown {
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.search_dropdown:empty {
+  border: none;
+}
+.dropdown_row {
+  cursor: pointer;
+  text-align: start;
+  margin: 2px 0;
+}

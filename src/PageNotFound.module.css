@@ -1,0 +1,12 @@
+.h1_pagenotfound {
+  margin: 4rem 1rem;
+  font-size: 4rem;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(249, 249, 249);
+  font-size: 72px;
+  background: -webkit-linear-gradient(#cbf4d7, rgb(37, 36, 36), #1cff4d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}

@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background-color: #d9d9d9;
+  font-family: "Poppins", sans-serif;
+}
+p {
+  color: #252424;
+}
+.Open {
+  font-weight: 600;
+  color: rgb(24, 141, 15) !important;
+}
+.Closed {
+  font-weight: 600;
+  color: rgba(255, 62, 55, 0.974) !important;
+}
+.Progress {
+  font-weight: 600;
+  color: rgb(3, 45, 211) !important;
+}
+
+.Error {
+  background-color: rgb(227, 71, 71) !important;
+  font-weight: 600;
+}
+.Complete {
+  background-color: green;
+  color: #d9d9d9;
+}
+
+.InComplete {
+  background-color: black;
+  color: #d9d9d9 !important;
+}
+
+.InComplete p,
+.Complete p {
+  color: #d9d9d9 !important;
+}

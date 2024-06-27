@@ -1,0 +1,380 @@
+[
+  {
+    "id": "1",
+    "name": "Introduction to React Native",
+    "instructor": "John Doe",
+
+    "description": "Learn the basics of React Native development and build your first mobile app.",
+    "enrollmentStatus": "Open",
+
+    "thumbnail": "your.image.here",
+
+    "duration": "4 weeks",
+    "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+    "location": "Online",
+    "prerequisites": ["Basic JavaScript knowledge", "Familiarity with React"],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to React Native",
+        "content": "Overview of React Native, setting up your development environment."
+      },
+      {
+        "week": 2,
+        "topic": "Building Your First App",
+        "content": "Creating a simple mobile app using React Native components."
+      },
+      {
+        "week": 3,
+        "topic": "Understanding State and Props",
+        "content": "Learn how to manage state and props in React Native components."
+      },
+      {
+        "week": 4,
+        "topic": "Building User Interfaces",
+        "content": "Explore various UI components and styling options in React Native."
+      }
+    ],
+    "students": [
+      {
+        "id": 101,
+        "name": "Alice Johnson",
+        "email": "alice@example.com"
+      },
+      {
+        "id": 102,
+        "name": "Bob Smith",
+        "email": "bob@example.com"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Mastering Data Structures and Algorithms",
+    "instructor": "Jane Smith",
+    "description": "Explore fundamental data structures and algorithms used in modern software development.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "your.data.structures.image",
+    "duration": "12 weeks",
+    "schedule": "Mondays and Wednesdays, 10:00 AM - 12:00 PM",
+    "location": "Online",
+    "prerequisites": [
+      "Programming fundamentals",
+      "Basic understanding of time and space complexity"
+    ],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Data Structures",
+        "content": "Arrays, Linked Lists, Stacks, Queues."
+      },
+      {
+        "week": 2,
+        "topic": "Sorting Algorithms",
+        "content": "Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, Quick Sort."
+      },
+      {
+        "week": 3,
+        "topic": "Searching Algorithms",
+        "content": "Linear Search, Binary Search."
+      }
+    ],
+    "students": []
+  },
+  {
+    "id": "3",
+    "name": "Web Development with Python and Django",
+    "instructor": "David Lee",
+    "description": "Build full-stack web applications using the popular Python web framework Django.",
+    "enrollmentStatus": "In Progress",
+    "thumbnail": "your.web.dev.image",
+    "duration": "10 weeks",
+    "schedule": "Saturdays, 1:00 PM - 4:00 PM",
+    "location": "In-Person (New York City)",
+    "prerequisites": ["Basic Python programming", "HTML and CSS knowledge"],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Django",
+        "content": "Setting up your development environment, creating models and views."
+      },
+      {
+        "week": 2,
+        "topic": "User Authentication and Forms",
+        "content": "Implementing user login, registration, and form handling."
+      },
+      {
+        "week": 3,
+        "topic": "Database Management with Django ORM",
+        "content": "Working with databases using Django's Object-Relational Mapper."
+      }
+    ],
+    "students": [
+      {
+        "id": 201,
+        "name": "Charlie Brown",
+        "email": "charlie@peanuts.com"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Introduction to Machine Learning",
+    "instructor": "Emily Garcia",
+    "description": "Explore the basics of machine learning concepts and build simple ML models with Python.",
+    "enrollmentStatus": "Closed",
+    "thumbnail": "your.machine.learning.image",
+    "duration": "16 weeks",
+    "schedule": "Tuesdays and Thursdays, 7:00 PM - 9:00 PM",
+    "location": "Online",
+    "prerequisites": [
+      "Linear algebra and calculus (recommended)",
+      "Experience with Python programming"
+    ],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Machine Learning Fundamentals",
+        "content": "Supervised vs. Unsupervised Learning, Classification and Regression."
+      },
+      {
+        "week": 2,
+        "topic": "Linear Regression",
+        "content": "Building and evaluating linear regression models for prediction."
+      },
+      {
+        "week": 3,
+        "topic": "Decision Trees and K-Nearest Neighbors",
+        "content": "Classification algorithms for making predictions based on data."
+      }
+    ],
+    "students": [
+      {
+        "id": 301,
+        "name": "Michael Jordan",
+        "email": "mj@bulls.com"
+      },
+      {
+        "id": 302,
+        "name": "LeBron James",
+        "email": "kingjames@lakers.com"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Advanced Web Security",
+    "instructor": "Maria Hernandez",
+    "description": "Dive deep into web security vulnerabilities and learn techniques for building secure applications.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "your.web.security.image",
+    "duration": "14 weeks",
+    "schedule": "Fridays, 4:00 PM - 6:00 PM",
+    "location": "Online",
+    "prerequisites": [
+      "Solid understanding of web development concepts",
+      "Familiarity with basic security principles"
+    ],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Web Application Security Fundamentals",
+        "content": "Common vulnerabilities like SQL injection and XSS, secure coding practices."
+      },
+      {
+        "week": 2,
+        "topic": "User Authentication and Authorization",
+        "content": "Secure password storage, session management, access control mechanisms."
+      },
+      {
+        "week": 3,
+        "topic": "API Security",
+        "content": "Best practices for securing APIs and protecting against unauthorized access."
+      }
+    ],
+    "students": []
+  },
+  {
+    "id": "6",
+    "name": "Game Development with Unity",
+    "instructor": "Christopher Lee",
+    "description": "Bring your game ideas to life by learning the Unity game engine and C# programming.",
+    "enrollmentStatus": "In Progress",
+    "thumbnail": "your.game.dev.image",
+    "duration": "12 weeks",
+    "schedule": "Sundays, 2:00 PM - 5:00 PM",
+    "location": "In-Person (Los Angeles)",
+    "prerequisites": [
+      "Basic programming experience",
+      "Passion for game design"
+    ],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Unity",
+        "content": "User interface, creating game objects, basic scripting with C#."
+      },
+      {
+        "week": 2,
+        "topic": "2D Game Development",
+        "content": "Building a simple 2D game with sprites, animation, and player controls."
+      },
+      {
+        "week": 3,
+        "topic": "3D Game Development Fundamentals",
+        "content": "Working with 3D models, physics, and camera controls."
+      }
+    ],
+    "students": [
+      {
+        "id": 401,
+        "name": "Lara Croft",
+        "email": "lara@tombraiders.com"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "UX/UI Design Fundamentals",
+    "instructor": "Sarah Miller",
+    "description": "Learn the core principles of user experience (UX) and user interface (UI) design to create user-centered products.",
+    "enrollmentStatus": "Closed",
+    "thumbnail": "your.uxui.design.image",
+    "duration": "8 weeks",
+    "schedule": "Wednesdays, 6:00 PM - 8:00 PM",
+    "location": "Online",
+    "prerequisites": [
+      "Interest in design and user experience",
+      "Basic understanding of visual design principles"
+    ],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to UX/UI Design",
+        "content": "Design thinking, user research, information architecture."
+      },
+      {
+        "week": 2,
+        "topic": "User Interface Design Fundamentals",
+        "content": "Visual elements, layout principles, typography, and color theory."
+      },
+      {
+        "week": 3,
+        "topic": "User Experience (UX) Design",
+        "content": "User flows, wireframing, prototyping, and usability testing."
+      }
+    ],
+    "students": [
+      {
+        "id": 501,
+        "name": "Steve Jobs",
+        "email": "thinkdifferent@apple.com"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Data Visualization with Tableau",
+    "instructor": "David Kim",
+    "description": "Master the art of data visualization using the powerful Tableau software.",
+    "enrollmentStatus": "Open",
+    "thumbnail": "your.data.viz.image",
+    "duration": "6 weeks",
+    "schedule": "Tuesdays, 12:00 PM - 1:30 PM",
+    "location": "Online",
+    "prerequisites": [
+      "Basic understanding of data analysis concepts",
+      "Comfortable working with spreadsheets"
+    ],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Tableau",
+        "content": "Getting started with the Tableau interface, connecting to data sources."
+      },
+      {
+        "week": 2,
+        "topic": "Creating Charts and Visualizations",
+        "content": "Building bar charts, line charts, pie charts, and more."
+      },
+      {
+        "week": 3,
+        "topic": "Data Storytelling with Dashboards",
+        "content": "Creating interactive dashboards to communicate insights effectively."
+      }
+    ],
+    "students": []
+  },
+  {
+    "id": "9",
+    "name": "Blockchain Fundamentals",
+    "instructor": "Emily Garcia",
+    "description": "Explore the revolutionary technology behind cryptocurrencies and decentralized applications (dApps).",
+    "enrollmentStatus": "In Progress",
+    "thumbnail": "your.blockchain.image",
+    "duration": "10 weeks",
+    "schedule": "Thursdays, 7:00 PM - 8:30 PM",
+    "location": "Online",
+    "prerequisites": [
+      "Basic understanding of computer science concepts",
+      "Interest in emerging technologies"
+    ],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Blockchain",
+        "content": "Distributed ledger technology, consensus mechanisms, key concepts."
+      },
+      {
+        "week": 2,
+        "topic": "Cryptocurrencies and Bitcoin",
+        "content": "Understanding how Bitcoin works, mining, and the future of digital currencies."
+      },
+      {
+        "week": 3,
+        "topic": "Smart Contracts and dApps",
+        "content": "Building self-executing contracts on the blockchain, potential applications."
+      }
+    ],
+    "students": []
+  },
+  {
+    "id": "10",
+    "name": "Creative Writing: Finding Your Voice",
+    "instructor": "William Anderson",
+    "description": "Develop your creative writing skills and explore different genres in a supportive environment.",
+    "enrollmentStatus": "Closed",
+    "thumbnail": "your.creative.writing.image",
+    "duration": "12 weeks",
+    "schedule": "Saturdays, 10:00 AM - 12:00 PM",
+    "location": "In-Person (Chicago)",
+    "prerequisites": [
+      "Passion for writing and storytelling",
+      "Openness to feedback and experimentation"
+    ],
+    "syllabus": [
+      {
+        "week": 1,
+        "topic": "Introduction to Creative Writing",
+        "content": "Freewriting exercises, character development, and exploring different genres."
+      },
+      {
+        "week": 2,
+        "topic": "Fiction Writing",
+        "content": "Crafting plot, building suspense, and revising your work."
+      },
+      {
+        "week": 3,
+        "topic": "Poetry and Creative Nonfiction",
+        "content": "Exploring different poetic forms, writing personal essays, and finding your voice."
+      }
+    ],
+    "students": [
+      {
+        "id": 601,
+        "name": "J.K. Rowling",
+        "email": "accio@hogwarts.com"
+      }
+    ]
+  }
+]

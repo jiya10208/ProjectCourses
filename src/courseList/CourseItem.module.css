@@ -1,0 +1,17 @@
+.CourseItem {
+  margin: 1rem 2rem;
+  width: 40%;
+  background-color: rgb(37, 36, 36);
+  padding: 1rem;
+}
+.CourseItem:hover {
+  background-color: rgb(67, 67, 67);
+}
+.CourseItem p {
+  color: rgb(218, 218, 218);
+}
+@media only screen and (max-width: 900px) {
+  .CourseItem {
+    width: 70%;
+  }
+}
