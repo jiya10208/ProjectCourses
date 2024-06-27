@@ -6,6 +6,7 @@ import Course from "./course/Course";
 import { StudentContextProvider } from "./store/StudentContext";
 import CurrStatus_Syllabus from "./courseSyllabus.jsx/CurrStatus_Syllabus";
 import PageNotFound from "./PageNotFound";
+import CourseEnroll from "./courseList/CourseEnroll";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           />
           <Route path="/course" element={<CourseList />} />
           <Route path="/course/:id" element={<Course />} />
+          <Route path="/course/:id/enroll" element={<CourseEnroll />} />
           <Route path="*" element={<PageNotFound />} />
           {/* <Route path="/" /> */}
         </Routes>
