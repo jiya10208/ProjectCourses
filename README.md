@@ -36,6 +36,8 @@ This project is a React application that allows users to browse a list of course
 **Running the Application**
   Follow the setup instructions above.
 
-Bonus Features (Optional)
+**Bonus Features (Optional)**
   enrollment page
   room for making a page for teacher for creating the new course 
+
+video of the website running  https://github.com/jiya10208/ProjectCourses/blob/main/CourseX%20-%20Google%20Chrome%202024-06-28%2013-16-45.mp4
