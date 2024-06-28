@@ -14,7 +14,7 @@ export default function Homepage() {
         <SpinnerFullPage />
       ) : (
         <>
-          <Navbar title={"Homepage"} />
+          <Navbar title={currStudent.name} />
           <div className={styles.main_studentContent}>
             <StudentDetails currStudent={currStudent} />
             <p className={styles.enrolledCourses}>Enrolled courses:</p>

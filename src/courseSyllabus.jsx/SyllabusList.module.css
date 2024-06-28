@@ -3,56 +3,21 @@
   display: flex;
   flex-flow: column;
   border: 1px solid #f7f7f7;
-
+  align-items: center;
   box-shadow: 5px 6px 7px #f9f9f9;
   padding: 1rem 2rem;
   margin: 1rem;
 }
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 3.5rem;
-  height: 1.9rem;
-}
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-.round_Slider {
-  position: absolute;
+
+.syllabuStatusbutton {
+  width: fit-content;
+  background-color: #def6de;
+  border: none;
+  padding: 0.4rem 0.6rem;
+  border: 2px solid rgb(0, 81, 0);
   cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  border-radius: 100px;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
 }
-.round_Slider:before {
-  position: absolute;
-  content: "";
-  border-radius: 100px;
-  width: 1.5rem;
-  height: 1.9rem;
-  background-color: #fcfcfc;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+.syllabuStatusbutton:hover,
+.syllabuStatusbutton:hover {
+  background-color: #cafbca;
 }
-
-input:checked + .round_Slider {
-  background-color: #2196f3;
-}
-
-input:focus + .round_Slider {
-  box-shadow: 0 0 1px #2196f3;
-}
-
-input:checked + .round_Slider:before {
-  /* -ms-transform: translateX(20px); */
-  transform: translateX(32px);
-}
-
-/* Rounded round_Sliders */

@@ -3,6 +3,16 @@ import { Link } from "react-router-dom";
 import styles from "./Homepage.module.css";
 
 export default function StudentCourseItem({ el }) {
+  console.log(el.syllabus);
+  var completedweek = 0;
+  for (var i = 0; i < el.syllabus.length; i++) {
+    if (el.syllabus[i].status === "Complete") {
+      completedweek++;
+    }
+  }
+  const progress = completedweek / el.syllabus.length;
+  console.log(completedweek);
+
   return (
     <div className={styles.StudentCourseItem}>
       <Link to={`syllabus/${el.id}`}>
@@ -19,14 +29,14 @@ export default function StudentCourseItem({ el }) {
         Current Progress:{" "}
         <strong>
           {" "}
-          <em> {el.progress * 100}%</em>
+          <em> {progress * 100}%</em>
         </strong>
       </span>
       <div className={styles.progressBarWidth}>
         <div
           className={styles.progressBar}
           style={{
-            width: `${el.progress * 100}%`,
+            width: `${progress * 100}%`,
             background: "green",
             height: "100%",
           }}

@@ -1,0 +1,46 @@
+.enrollContent {
+  margin: 1rem 1rem;
+}
+
+.enrollCourseDetails {
+  margin: 1rem 0;
+}
+.enrollCourseDetails_p em {
+  font-weight: 500;
+  font-style: normal;
+}
+.inputDiv input {
+  background-color: #d9d9d9;
+  margin: 0.1rem 1rem;
+  border: none;
+  padding: 0.3rem 1rem;
+  border-bottom: 1px solid #056602;
+  padding-bottom: none;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: none;
+  word-spacing: 0.1rem;
+}
+
+.inputDiv input:focus {
+  outline: none;
+}
+
+.inputDiv label {
+  font-size: 0.9rem;
+  font-weight: 4500;
+}
+.EnrollmentBtn {
+  padding: 0.4rem 1.4rem;
+  background-color: green;
+  color: #fffff1;
+  border: 3px double rgb(149, 204, 149);
+  transition: background 1s;
+  /* borderr */
+}
+
+.EnrollmentBtn:hover {
+  background-color: rgb(9, 102, 9);
+
+  border: 3px double rgb(40, 43, 40);
+}

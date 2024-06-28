@@ -29,7 +29,6 @@ export default function CurrStatus_Syllabus() {
   const requiredCourse = currStudent.enrolled_courses.filter(
     (el) => el.id === id
   );
-  console.log();
   const syllabus = requiredCourse[0].syllabus;
   if (!requiredCourse)
     return (
@@ -47,8 +46,8 @@ export default function CurrStatus_Syllabus() {
         <h1>{requiredCourse[0].name} </h1>
         <ul className={styles.CompleteSyllabusList}>
           <p>Syllabus and Completion Details :</p>
-          {syllabus.map((el) => (
-            <SyllabusList key={el.week} el={el} />
+          {syllabus.map((el, i) => (
+            <SyllabusList key={i} el={el} />
           ))}
         </ul>
       </div>

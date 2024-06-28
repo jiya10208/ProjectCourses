@@ -45,6 +45,12 @@ function reducer(state, action) {
         isLoading: false,
         currStudent: { ...action.payload },
       };
+    case "complete/Incomplete":
+      return {
+        ...state,
+        isLoading: false,
+        currStudent: { ...action.payload },
+      };
     default:
       return state;
   }
@@ -93,6 +99,29 @@ export function StudentContextProvider({ children }) {
     },
     [currStudentId]
   );
+  const postStudent = useCallback(
+    async function postStudent(d) {
+      dispatch({ type: "loading" });
+
+      try {
+        dispatch({ type: "students/loaded", payload: data });
+        const res = await fetch(`${loadStudentsUrl}/${currStudentId}`, {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" }, // Specify the content type
+          body: JSON.stringify(d),
+        });
+        const data = await res.json();
+
+        // dispatch({ type: "complete/Incomplete", payload: data });
+      } catch {
+        dispatch({
+          type: "rejected",
+          payload: "There is some error in loading the data... ",
+        });
+      }
+    },
+    [currStudentId]
+  );
 
   useEffect(() => {
     if (isAthenticated && currStudentId) getStudent();
@@ -105,6 +134,7 @@ export function StudentContextProvider({ children }) {
         currStudent,
         isAthenticated,
         error,
+        postStudent,
       }}
     >
       {children}
