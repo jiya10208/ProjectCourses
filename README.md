@@ -1,4 +1,4 @@
-#React Course Management Application
+# React Course Management Application
 This project is a React application that allows users to browse a list of courses, view detailed information about specific courses, and (optionally) manage their enrolled courses as a student.
 
 **Features**
