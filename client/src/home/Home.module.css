@@ -1,0 +1,92 @@
+.parentContainer {
+  position: relative;
+  overflow-y: hidden;
+  height: fit-content;
+}
+
+.homepage {
+  background-color: #f0ebeb;
+  margin: 1rem 0rem;
+}
+.circle {
+  position: absolute;
+  height: 10rem;
+  width: 10rem;
+  background-image: linear-gradient(
+    rgb(255, 255, 255, 0.5),
+    rgb(0, 128, 0, 0.5),
+    rgb(46, 57, 51, 0.5),
+    rgb(255, 255, 255, 0.5)
+  );
+  top: 10rem;
+  opacity: 0.5;
+  left: 70vw;
+  border-radius: 100%;
+}
+.leftCircle {
+  left: -4rem;
+  top: 10rem;
+}
+.homepage_headingdiv {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.homepage_page1_heading {
+  padding: 0;
+  padding-right: 1rem;
+  margin: 1rem 1rem;
+  font-size: 6rem;
+  font-weight: 600;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(27, 126, 24);
+
+  background: -webkit-linear-gradient(#cbf4d7, rgb(37, 36, 36), #1cff4d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  text-shadow: 1px 2px 142px rgb(25, 89, 25);
+}
+.homepage_page1_p {
+  font-weight: 200;
+}
+.description {
+  text-align: center;
+  font-weight: 400;
+}
+
+.exploreNowbtn {
+  background-color: green;
+  padding: 0.6rem 3rem;
+  border: none;
+  border: 3px double white;
+  cursor: pointer;
+  color: white;
+
+  margin: 3rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .parentContainer {
+    /* width: 80vw; */
+    padding-left: 0;
+  }
+
+  .homepage_page1_heading {
+    font-size: 5rem;
+  }
+  .circle {
+    overflow: hidden;
+    opacity: 0.4;
+    left: 60vw;
+    top: 25rem;
+  }
+  .leftCircle {
+    top: 10rem;
+    left: -2rem;
+  }
+}

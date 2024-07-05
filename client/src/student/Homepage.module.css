@@ -1,0 +1,142 @@
+/*  student details */
+.StudentDetails_tag {
+  position: absolute;
+  top: 7.5rem;
+  left: 5rem;
+  background-color: #d9d9d9;
+  width: fit-content;
+  font-size: 2rem;
+}
+.StudentDetails {
+  display: flex;
+  margin-top: 5rem;
+  flex-flow: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  padding: 1rem 1rem;
+  border: 3px double black;
+}
+.StudentDetails_dark {
+  color: #2d2d2d;
+  font-weight: 499;
+}
+.StudentDetails_Faint {
+}
+/* Student_CourseList  */
+.enrolledCourses::before,
+.enrolledCourses::after {
+  content: "";
+  display: inline-block; /* Allow setting width and positioning */
+  width: 36%; /* Adjust width as desired */
+  background-color: #252424; /* Adjust color as desired */
+  height: 0.13rem; /* Adjust height for line thickness */
+  margin-bottom: 0.5rem;
+}
+
+.enrolledCourses::before {
+  margin-right: 10px; /* Space between line and element */
+}
+
+.enrolledCourses::after {
+  margin-left: 10px; /* Space between line and element */
+}
+
+.enrolledCourses {
+  font-weight: 600;
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+.Student_CourseList {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.Student_CourseList h1 {
+  font-size: 4rem;
+  opacity: 0.6;
+}
+
+/*  student Course List Item */
+
+.StudentCourseItem {
+  margin-top: 3rem;
+  background-color: green;
+  border: 3px double #252424;
+  padding: 2rem 1.5rem;
+}
+
+.StudentCourseItem a,
+.StudentCourseItem a p {
+  color: #d9d9d9;
+}
+
+.main_studentContent {
+  margin: 1.5rem 1.5rem;
+}
+
+.main_studentContent p,
+.main_studentContent a,
+.main_studentContent h1 {
+  color: #252424;
+}
+.main_studentContent_Link {
+  padding: 1rem 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 1rem 1rem;
+  border-radius: 1rem;
+  background-color: green;
+  color: white;
+  transition: color 1s, background 0.5s, padding 1s;
+}
+
+.main_studentContent_Link:hover {
+  text-decoration: underline;
+  background-color: #252424;
+  color: #d9d9d9;
+  padding: 1rem 1.2rem;
+}
+
+.progressBarWidth {
+  height: 1rem;
+  width: 90%;
+  background-color: #d9d9d9;
+  padding: 1px 10px;
+  border: 1px solid rgb(91, 90, 90);
+  margin: 1rem;
+  /* margin: 1px 10px; */
+}
+
+.pregressBar {
+  height: 100%;
+  background-color: green;
+}
+
+/*   */
+@media only screen and (max-width: 1200px) {
+  .enrolledCourses::before,
+  .enrolledCourses::after {
+    width: 31%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .enrolledCourses::before,
+  .enrolledCourses::after {
+    width: 26%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .enrolledCourses {
+    font-size: 1.7rem;
+    padding: 0;
+    text-align: start;
+  }
+  .enrolledCourses::before,
+  .enrolledCourses::after {
+    width: 0;
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+  }
+}
